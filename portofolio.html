@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+
+    <style>
+        .para {
+            color:rgb(5, 60, 92);
+            text-align: center;
+        }
+    
+    </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Halo, saya Eka Wijayanti</h1>
+    <h1><p class="para">Halo, Saya Eka Wijayanti</p></h1>
     <p>Disini saya akan melampirkan data dari kelompok Semarang dari sektor Pariwisata,
         untuk mengisi tugas portofolio saya.</p>
     <p>Untuk teman-teman Kelompok Pariwisata silahkan isi form berikut!</p>
     <form>
-        <p>Nama:</p>
+        <p class="para-external">Nama:</p>
         <input type="text" name="Nama" placeholder="Enter your name">
-        <p>Universitas:</p>
+        <p class="para-external">Universitas:</p>
         <input type="text" placeholder="Enter your university">
-        <p>Kelompok:</p>
+        <p class="para-external">Kelompok:</p>
         <input type="radio" name="kelompok" id="Manado">
         <label for="Manado">Manado</label>
         <input type="radio" name="kelompk" id="Jakarta 1">
@@ -35,7 +44,7 @@
         <label for="BWI-Bali">BWI-Bali</label>
         <input type="radio" name="kelompok" id="BWI-Jember">
         <label for="BWI-Jember">BWI-Jember</label>
-        <p>Bidang:</p>
+        <p class="para-external">Bidang:</p>
         <p><input type="checkbox" id="Android">
         <label for="Android">Android</label></p>
         <p><input type="checkbox" id="Bisnis">
@@ -47,12 +56,12 @@
         <p><input type="checkbox" id="Backend">
         <label for="Backend">Backend</label></p>
         <div>
-        <input type="Submit" value="Kirim">
-        <input type="Reset" value="Reset">
+        <input style=background-color:cadetblue type="Submit" value="Kirim">
+        <input style=background-color:brown type="Reset" value="Reset">
         </div>
     </form>
-    <h1>Tabel Anggota Kelompok</h1>
-    <table border="1">
+    <h1 class="para-external1">Tabel Anggota Kelompok</h1>
+    <table border="1 px" class="para-external2">
         <tr>
             <th>No</th>
             <th>Nama</th>
@@ -119,8 +128,8 @@
 
     </table>
     <p>
-     <button>
-        <a href="biodata.html">Kembali</a>
+     <button class="para-external3">
+        <a href="biodata.html"><p class="inset">Kembali</p></a>
      </button>
     </p>
 
