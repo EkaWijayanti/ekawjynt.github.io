@@ -5,6 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+    <style>
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            background-color: #111;
+        }
+    </style>
 
     <style>
         .para {
@@ -16,9 +41,14 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#">Portofolio</a>
-    <a href="index.html">Biodata</a>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Biodata</a></li>
+            <li><a href="#">Portofolio</a></li>
+        </ul>
+    </div>
     <h1><p class="para">Halo, Saya Eka Wijayanti</p></h1>
+    
     <p>Disini saya akan melampirkan data dari kelompok Semarang dari sektor Pariwisata,
         untuk mengisi tugas portofolio saya.</p>
     <p>Untuk teman-teman Kelompok Pariwisata silahkan isi form berikut!</p>
@@ -131,7 +161,7 @@
     </table>
     <p>
      <button class="para-external3">
-        <a href="biodata.html"><p class="inset">Kembali</p></a>
+        <a href="index.html"><p class="inset">Kembali</p></a>
      </button>
     </p>
 
