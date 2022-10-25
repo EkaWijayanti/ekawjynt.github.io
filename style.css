@@ -51,3 +51,25 @@
     margin-right: 1150px;
     margin-left: 50px;
 }
+.photo-html{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.title{
+    font-family: 'raleway' , sans-serif;
+}
+.subtitle{
+    letter-spacing: 5px;
+}
+#hero{
+    height: 95vh;
+}
+.text-about{
+    text-indent: 50px;
+    text-align: justify;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
